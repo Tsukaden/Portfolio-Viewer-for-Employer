@@ -1,0 +1,124 @@
+
+body {
+  color:rgb(2, 57, 2);
+  background-color: rgb(216, 255, 209);
+  line-height: 1.3;
+  position: relative;
+}
+
+header {
+clear: both;
+background-color: blanchedalmond;
+display: flex;
+justify-content: space-between;
+border-width: 10px;
+border: solid;
+border-left: 5px;
+border-right: 5px;
+border-left-style: groove;
+border-right-style: groove;
+}
+
+header h1 {
+  margin:0;
+  padding:0;
+  padding-left:0px;
+  line-height: 1;
+}
+
+nav {
+  margin:0;
+  padding:0;
+  display: flex;
+  margin: 1;
+  flex-direction: row;
+}
+
+nav a {
+  background-position: bottom;
+  text-decoration: none;
+  color:rgb(2, 57, 2);
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.redirect {
+  font-size: 23px;
+}
+
+.links {
+  font-size: 50%;
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+
+nav a:hover {
+  background-size: 100% 100%;
+ color: rgb(128, 0, 255);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 200px;
+}
+
+p {
+  text-align: left;
+  padding-left: 180px;
+  font-size: 200%;
+}
+
+.about {
+  padding-left: 340px;
+  padding-right: 250px;
+  display: flex;
+  background-color: rgb(216, 255, 209);
+  justify-content: left;
+}
+
+.imaj {
+  border: rgb(31, 159, 31) solid 5px;
+}
+
+.want {
+  width: 600px;
+}
+.cntr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;  
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.contact {
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.page-footer {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.page-footer ul {
+  display: flex;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.links {
+  font-size: 50px;
+}
+
+@media screen and (min-width: 550px) {
+}
